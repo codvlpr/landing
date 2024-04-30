@@ -1,0 +1,53 @@
+.profile-picture-container {
+    width: 300px; /* Adjust the width and height as needed */
+    height: 300px;
+    border: 2px solid #311B92; /* Blue border color */
+    border-radius: 50%; /* Make it round */
+    overflow: hidden; /* Ensure the image stays within the circle */
+}
+
+.profile-picture {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+    display: block; /* Remove any default inline spacing */
+    object-position: center;
+    background-size: cover; /* Scale the background image to be as large as possible */
+    background-position: center;
+}
+
+b, span {
+    color: #311B92;
+}
+
+.container.text-center ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    list-style: none; /* Hide bullet points */
+}
+
+.container.text-center ul li {
+    display: inline; /* Make list items inline */
+    margin: 0 10px; /* Adjust spacing between list items */
+}
+
+.container.text-center a {
+    color: gray; /* Set link color to gray */
+    text-decoration: none; /* Remove underline */
+}
+
+body {
+    background-color: #EEEEEE;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+h1 {
+    font-weight: 900;
+    font-size: 60px;
+}
